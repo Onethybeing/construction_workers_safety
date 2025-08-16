@@ -21,7 +21,7 @@ def download_weights(file_id, output_path):
 
 def load_model(weights_path=WEIGHTS_PATH, config_path=None):
     # This is the ID of your file in Google Drive
-    google_drive_file_id = "YOUR_FILE_ID_HERE"
+    google_drive_file_id = "1jE-h5dHHYuyxBYBgseiQbg5es4nnRb5s"
     
     # Download the weights file before loading the model
     download_weights(google_drive_file_id, weights_path)
