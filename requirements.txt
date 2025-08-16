@@ -4,12 +4,9 @@ numpy
 opencv-python
 Pillow
 
-# PyTorch and Detectron2 dependencies
-# The versions here are for Python 3.10 and CUDA 11.8, which are stable and widely supported.
-# Adjust these versions if your Colab notebook used a different setup.
+# PyTorch and Detectron2 dependencies for Python 3.10
 torch==2.0.1+cu118
 torchvision==0.15.2+cu118
 
-# Install Detectron2 using a pre-compiled wheel to avoid build issues.
-# This URL is for Python 3.10, PyTorch 2.0, and CUDA 11.8.
+# The correct way to install Detectron2
 detectron2 @ https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/detectron2-0.6-cp310-cp310-linux_x86_64.whl
